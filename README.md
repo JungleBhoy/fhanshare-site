@@ -1,2 +1,2 @@
 # fhanshare-site
-Fan season card shareing
+Fan season card sharing
