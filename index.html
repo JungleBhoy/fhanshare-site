@@ -1,19 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FhanShare25 Web</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
   <style>
     body { font-family: sans-serif; padding: 20px; max-width: 500px; margin: auto; background: #f4f4f4; }
     h1 { text-align: center; color: #333; }
     input, button { padding: 10px; margin: 5px 0; width: 100%; border: 1px solid #ccc; border-radius: 5px; }
-    button { background: #007BFF; color: white; cursor: pointer; }
+    button { background: #007BFF; color: white; cursor: pointer; transition: background 0.3s ease; }
     button:hover { background: #0056b3; }
     #qr { margin-top: 20px; text-align: center; }
     .supporter { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; background: #fff; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { text-align: center; font-size: 12px; margin-top: 30px; color: #777; }
   </style>
 </head>
 <body>
@@ -30,6 +31,10 @@
   <div id="supporterList"></div>
 
   <div id="qr"></div>
+
+  <footer>
+    <p>&copy; 2025 FhanShare25. Built for fans, by fans.</p>
+  </footer>
 
   <script>
     let supporters = JSON.parse(localStorage.getItem('supporters')) || [];
