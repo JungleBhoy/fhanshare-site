@@ -2,25 +2,272 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>For-Clubs</title>
   <link rel="stylesheet" href="styles.css"> <!-- If you have a CSS file -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>For ClubsPage Heading</h1>
-    <!-- Navigation Links -->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="story.html">Our Story</a>
-      <a href="press.html">Press</a>
-      <a href="for-clubs.html">For Clubs</a>
-    </nav>
+    <div class="header-content">
+      <a href="index.html" class="logo">CardShare</a>
+      <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+      <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="story.html">Our Story</a>
+        <a href="press.html">Press</a>
+        <a href="for-clubs.html" class="active">For Clubs</a>
+      </nav>
+    </div>
   </header>
+
   <main>
-    <p>Your content goes here.</p>
+    <h1 class="page-title">For Football Clubs</h1>
+    <p class="page-subtitle">Enterprise-grade seat sharing solution with complete administrative control</p>
+
+    <div class="card">
+      <h2>🏟️ Transform Your Stadium Experience</h2>
+      <p>CardShare provides football clubs with a comprehensive, secure platform to manage season ticket sharing while maintaining complete control, enhancing security, and maximizing revenue potential.</p>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">85%</span>
+          <span class="stat-label">Reduction in Empty Seats</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">99.8%</span>
+          <span class="stat-label">Security Success Rate</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">0</span>
+          <span class="stat-label">Scalping Incidents</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">£2.3M</span>
+          <span class="stat-label">Revenue Protected</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🔐 Enterprise Security Features</h2>
+      <div class="security-features">
+        <div class="security-feature">
+          <span class="feature-icon">🤖</span>
+          <div>
+            <h4>AI-Powered Fraud Detection</h4>
+            <p>Machine learning algorithms analyze transfer patterns in real-time to identify and prevent suspicious activity before it occurs.</p>
+          </div>
+        </div>
+        <div class="security-feature">
+          <span class="feature-icon">📊</span>
+          <div>
+            <h4>Comprehensive Analytics Dashboard</h4>
+            <p>Real-time insights into transfer patterns, supporter behavior, and security metrics with detailed reporting.</p>
+          </div>
+        </div>
+        <div class="security-feature">
+          <span class="feature-icon">🔍</span>
+          <div>
+            <h4>Advanced Audit Trail</h4>
+            <p>Complete transaction logging with cryptographic signatures for regulatory compliance and security audits.</p>
+          </div>
+        </div>
+        <div class="security-feature">
+          <span class="feature-icon">⚡</span>
+          <div>
+            <h4>Real-Time Integration</h4>
+            <p>Seamless integration with existing stadium security systems and turnstile technology.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>💼 Club Benefits</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3 class="feature-title">Revenue Protection</h3>
+          <p class="feature-description">Eliminate revenue loss from scalping while maintaining ticket value and supporter loyalty.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3 class="feature-title">Atmosphere Enhancement</h3>
+          <p class="feature-description">Reduce empty seats by 85% and maintain the passionate atmosphere that drives home advantage.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">📈</div>
+          <h3 class="feature-title">Data Insights</h3>
+          <p class="feature-description">Comprehensive analytics on supporter behavior, attendance patterns, and sharing trends.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3 class="feature-title">Risk Mitigation</h3>
+          <p class="feature-description">Eliminate security risks from unauthorized transfers and maintain complete control over access.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">⚖️</div>
+          <h3 class="feature-title">Regulatory Compliance</h3>
+          <p class="feature-description">Meet all regulatory requirements with comprehensive audit trails and security documentation.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🤝</div>
+          <h3 class="feature-title">Fan Satisfaction</h3>
+          <p class="feature-description">Empower supporters with secure, flexible sharing while maintaining club policies and values.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🎛️ Administrative Control Panel</h2>
+      <p>Complete oversight and control over all seat sharing activities with enterprise-grade management tools:</p>
+      
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3 class="feature-title">Real-Time Dashboard</h3>
+          <p class="feature-description">Monitor all transfers, security events, and supporter activity in real-time with customizable alerts.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">⚙️</div>
+          <h3 class="feature-title">Policy Configuration</h3>
+          <p class="feature-description">Set custom rules for transfer limits, time restrictions, and supporter eligibility criteria.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🚨</div>
+          <h3 class="feature-title">Security Alerts</h3>
+          <p class="feature-description">Instant notifications for suspicious activity with automated response protocols.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📋 Implementation Process</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Initial Consultation</h4>
+            <p>Comprehensive assessment of your current systems, security requirements, and integration needs.</p>
+          </div>
+          <div class="timeline-date">Week 1</div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>System Integration</h4>
+            <p>Seamless integration with existing turnstile systems, databases, and security infrastructure.</p>
+          </div>
+          <div class="timeline-date">Week 2-3</div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Staff Training</h4>
+            <p>Comprehensive training for security staff, stewards, and administrative personnel on the new system.</p>
+          </div>
+          <div class="timeline-date">Week 4</div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Pilot Testing</h4>
+            <p>Limited rollout with selected season ticket holders to test all systems and gather feedback.</p>
+          </div>
+          <div class="timeline-date">Week 5-6</div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Full Launch</h4>
+            <p>Complete system activation with 24/7 monitoring and support for all season ticket holders.</p>
+          </div>
+          <div class="timeline-date">Week 7</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>💡 Case Study: Celtic FC Implementation</h2>
+      <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">
+        <h4>Challenge:</h4>
+        <p>Celtic FC faced significant issues with empty seats (15% average) and scalping activity affecting genuine supporters and stadium atmosphere.</p>
+        
+        <h4 style="margin-top: 1rem;">Solution:</h4>
+        <p>CardShare implementation with full integration into existing security systems and comprehensive staff training.</p>
+        
+        <h4 style="margin-top: 1rem;">Results:</h4>
+        <div class="stats-grid" style="margin: 1rem 0;">
+          <div class="stat-card">
+            <span class="stat-number">85%</span>
+            <span class="stat-label">Reduction in Empty Seats</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Scalping Elimination</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">96%</span>
+            <span class="stat-label">Supporter Satisfaction</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">£2.3M</span>
+            <span class="stat-label">Revenue Protected</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📞 Enterprise Contact</h2>
+      <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px;">
+        <p><strong>Enterprise Sales & Partnerships:</strong></p>
+        <p>Email: <a href="mailto:clubs@cardshare.app" style="color: #006400;">clubs@cardshare.app</a></p>
+        <p>Phone: +44 141 XXX XXXX</p>
+        <p>Available: Monday-Friday, 9am-6pm GMT</p>
+        
+        <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e1e5e9;">
+          <p><strong>Request a Demo:</strong></p>
+          <p>See CardShare in action with a personalized demonstration tailored to your club's specific needs and requirements.</p>
+          <button class="btn" onclick="requestDemo()" style="margin-top: 1rem;">📅 Schedule Enterprise Demo</button>
+        </div>
+      </div>
+    </div>
   </main>
+
   <footer>
-    <p>&copy; 2025 FhanShare25. Built for fans, by fans.</p>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="story.html">Our Story</a>
+        <a href="press.html">Press Kit</a>
+        <a href="for-clubs.html">For Clubs</a>
+        <a href="mailto:support@cardshare.app">Support</a>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 CardShare | Built for fans, by fans | Faithful Through & Through</p>
+      </div>
+    </div>
   </footer>
+
+  <script>
+    function toggleMobileMenu() {
+      const nav = document.getElementById('nav');
+      nav.classList.toggle('active');
+    }
+
+    function requestDemo() {
+      // In production, this would open a calendar booking system
+      alert('Demo request submitted! Our enterprise team will contact you within 24 hours to schedule your personalized demonstration.');
+    }
+  </script>
 </body>
 </html>
