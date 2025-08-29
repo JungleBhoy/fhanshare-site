@@ -1,0 +1,16 @@
+{
+  "name": "fhanshare25",
+  "version": "1.0.0",
+  "description": "Fan-powered seat-sharing app for Celtic FC supporters",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build process needed'",
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": ["celtic", "football", "seat-sharing", "fans"],
+  "author": "JungleBhoy & Mac",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
